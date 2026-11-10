@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 4310.190887153845,
+    "p50": 2816.2054829999997,
+    "p95": 6477.5342718000375,
+    "p99": 30920.206177959994,
+    "min": 2618.844567,
+    "max": 31528.949708
+  },
+  "inter_token_latency": {
+    "avg": 25.676694502463548,
+    "p50": 25.965765149019607,
+    "p95": 29.71357415764706,
+    "p99": 32.8110681107451,
+    "min": 19.74408714117647,
+    "max": 33.01083724313725
+  },
+  "request_latency": {
+    "avg": 10857.74798528205,
+    "p50": 9507.830377999999,
+    "p95": 13715.089185800034,
+    "p99": 37025.70060299999,
+    "min": 7784.588793999999,
+    "max": 37767.820956999996
+  },
+  "output_token_throughput_per_user": {
+    "avg": 39.41981197721351,
+    "p50": 38.5122485034013,
+    "p95": 47.47804266690944,
+    "p99": 49.57177378435104,
+    "min": 30.293082015297678,
+    "max": 50.648074679253774
+  },
+  "output_token_throughput": {
+    "avg": 16.55025625764783,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 23076.28205128205,
+    "p50": 20553.0,
+    "p95": 45570.100000000006,
+    "p99": 51803.61999999999,
+    "min": 4148.0,
+    "max": 53362.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T05:45:14.547659",
+  "end_time": "2026-11-08T05:55:17.806628",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 164455.0,
+    "llamacpp:prompt_tokens_cached_total": 739669.0,
+    "llamacpp:prompt_seconds_total": 113.46805922500062,
+    "llamacpp:tokens_predicted_total": 10240.0,
+    "llamacpp:tokens_predicted_seconds_total": 261.46224849400005,
+    "llamacpp:spec_decode_num_drafts_total": 4364.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 9814.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 5496.0
+  },
+  "cache_hit_ratio_metrics": 0.8181057023151691,
+  "aiperf_rc": 0,
+  "duration_s": 627.5
+}

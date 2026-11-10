@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 3124.398552253521,
+    "p50": 2818.48349,
+    "p95": 4512.8735485,
+    "p99": 7778.133695699974,
+    "min": 2631.15649,
+    "max": 14077.594519999999
+  },
+  "inter_token_latency": {
+    "avg": 25.530227595422474,
+    "p50": 25.506049462745096,
+    "p95": 29.478064976470588,
+    "p99": 33.01784930784312,
+    "min": 13.561149188235293,
+    "max": 35.82945123137255
+  },
+  "request_latency": {
+    "avg": 9623.745796295774,
+    "p50": 9406.725117,
+    "p95": 11079.702943,
+    "p99": 15639.855446999969,
+    "min": 6302.675412,
+    "max": 23214.104584
+  },
+  "output_token_throughput_per_user": {
+    "avg": 39.85738174473714,
+    "p50": 39.20638519346675,
+    "p95": 45.96576751331162,
+    "p99": 67.93862260985034,
+    "min": 27.91000045025507,
+    "max": 73.74006333235609
+  },
+  "output_token_throughput": {
+    "avg": 17.988385750618427,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 21592.535211267605,
+    "p50": 20552.0,
+    "p95": 43110.0,
+    "p99": 46389.29999999999,
+    "min": 4148.0,
+    "max": 49260.0
+  },
+  "output_sequence_length": {
+    "avg": 255.59154929577466,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 227.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T05:56:47.927362",
+  "end_time": "2026-11-08T06:13:36.751616",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 296023.0,
+    "llamacpp:prompt_tokens_cached_total": 1241195.0,
+    "llamacpp:prompt_seconds_total": 206.79827053100598,
+    "llamacpp:tokens_predicted_total": 18403.0,
+    "llamacpp:tokens_predicted_seconds_total": 466.16258671299965,
+    "llamacpp:spec_decode_num_drafts_total": 7888.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 17349.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 9779.0
+  },
+  "cache_hit_ratio_metrics": 0.8074293951801241,
+  "aiperf_rc": 0,
+  "duration_s": 1032.9
+}

@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 9628.110777799999,
+    "p50": 4423.5688565,
+    "p95": 34220.36298395002,
+    "p99": 55841.08622878996,
+    "min": 2693.933228,
+    "max": 61246.26704
+  },
+  "inter_token_latency": {
+    "avg": 44.336294174117654,
+    "p50": 39.708242015686274,
+    "p95": 77.78914829823529,
+    "p99": 81.38302187611764,
+    "min": 23.026758811764704,
+    "max": 82.28149027058824
+  },
+  "request_latency": {
+    "avg": 20933.8657922,
+    "p50": 16062.927508499999,
+    "p95": 43628.52911415002,
+    "p99": 67107.99246362995,
+    "min": 8677.624806,
+    "max": 72977.858301
+  },
+  "output_token_throughput_per_user": {
+    "avg": 24.966374920996774,
+    "p50": 25.185240145115223,
+    "p95": 36.90412117969886,
+    "p99": 42.12301294515872,
+    "min": 12.153401654630128,
+    "max": 43.4277358865237
+  },
+  "output_token_throughput": {
+    "avg": 17.591489527159062,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 22808.6,
+    "p50": 22603.5,
+    "p95": 41264.100000000006,
+    "p99": 44381.619999999995,
+    "min": 4148.0,
+    "max": 45161.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T18:05:53.781857",
+  "end_time": "2026-11-08T18:10:44.838183",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 115065.0,
+    "llamacpp:prompt_tokens_cached_total": 345255.0,
+    "llamacpp:prompt_seconds_total": 93.42419428700123,
+    "llamacpp:tokens_predicted_total": 5376.0,
+    "llamacpp:tokens_predicted_seconds_total": 183.05425542699595,
+    "llamacpp:spec_decode_num_drafts_total": 2546.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 4063.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 2479.0
+  },
+  "cache_hit_ratio_metrics": 0.7500325860271115,
+  "aiperf_rc": 0,
+  "duration_s": 317.5
+}

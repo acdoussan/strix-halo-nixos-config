@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 13856.993836866666,
+    "p50": 15740.8953475,
+    "p95": 23131.751545,
+    "p99": 24863.0399996,
+    "min": 2807.281815,
+    "max": 25480.635936
+  },
+  "inter_token_latency": {
+    "avg": 56.344008704705885,
+    "p50": 56.207781998039216,
+    "p95": 63.11456784941176,
+    "p99": 63.96465669113726,
+    "min": 37.01777153333333,
+    "max": 64.28959821568627
+  },
+  "request_latency": {
+    "avg": 28224.716056566664,
+    "p50": 30362.3949665,
+    "p95": 37040.396877549996,
+    "p99": 39022.84966431,
+    "min": 12248.480624,
+    "max": 39749.860484
+  },
+  "output_token_throughput_per_user": {
+    "avg": 18.067703071703725,
+    "p50": 17.79148284695267,
+    "p95": 24.529284884284802,
+    "p99": 27.01266856942851,
+    "min": 15.554615797178927,
+    "max": 27.014051861537144
+  },
+  "output_token_throughput": {
+    "avg": 24.926169989625635,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 18775.866666666665,
+    "p50": 16452.5,
+    "p95": 35112.999999999985,
+    "p99": 39870.420000000006,
+    "min": 4148.0,
+    "max": 41060.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T23:17:54.915191",
+  "end_time": "2026-11-08T23:23:03.030946",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 127502.0,
+    "llamacpp:prompt_tokens_cached_total": 439922.0,
+    "llamacpp:prompt_seconds_total": 107.94968422200003,
+    "llamacpp:tokens_predicted_total": 7936.0,
+    "llamacpp:tokens_predicted_seconds_total": 362.3559212439982,
+    "llamacpp:spec_decode_num_drafts_total": 0.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 0.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 0.0
+  },
+  "cache_hit_ratio_metrics": 0.7752967798330701,
+  "aiperf_rc": 0,
+  "duration_s": 337.3
+}

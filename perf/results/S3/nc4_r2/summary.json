@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 4262.3339264999995,
+    "p50": 2789.659397,
+    "p95": 10935.86847839999,
+    "p99": 24273.029574420005,
+    "min": 2600.94715,
+    "max": 28537.720251
+  },
+  "inter_token_latency": {
+    "avg": 25.50179078235294,
+    "p50": 25.76643477254902,
+    "p95": 29.821407036666663,
+    "p99": 30.146401563882353,
+    "min": 13.403101199999998,
+    "max": 30.20487374117647
+  },
+  "request_latency": {
+    "avg": 10765.290576,
+    "p50": 9490.370347,
+    "p95": 17352.561848299996,
+    "p99": 30494.765199140005,
+    "min": 6159.8282229999995,
+    "max": 34809.030376999995
+  },
+  "output_token_throughput_per_user": {
+    "avg": 40.178191619665924,
+    "p50": 38.81075693155633,
+    "p95": 47.819720906603116,
+    "p99": 67.81149364167662,
+    "min": 33.10723986363699,
+    "max": 74.60959856066744
+  },
+  "output_token_throughput": {
+    "avg": 16.97867341859768,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 16744.14285714286,
+    "p50": 16451.0,
+    "p95": 31419.649999999994,
+    "p99": 32855.73,
+    "min": 4148.0,
+    "max": 32856.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T06:20:47.569389",
+  "end_time": "2026-11-08T06:27:49.751085",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 119287.0,
+    "llamacpp:prompt_tokens_cached_total": 353698.0,
+    "llamacpp:prompt_seconds_total": 79.67410893999659,
+    "llamacpp:tokens_predicted_total": 7424.0,
+    "llamacpp:tokens_predicted_seconds_total": 188.4585632520011,
+    "llamacpp:spec_decode_num_drafts_total": 3174.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 6911.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 3904.0
+  },
+  "cache_hit_ratio_metrics": 0.7477996130955528,
+  "aiperf_rc": 0,
+  "duration_s": 447.4
+}

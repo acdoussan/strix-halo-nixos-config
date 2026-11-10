@@ -1,0 +1,1082 @@
+[
+  {
+    "scenario": "S1",
+    "run_id": "cold_r1_in512",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "512",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 4200
+  },
+  {
+    "scenario": "S1",
+    "run_id": "cold_r1_in4096",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 4200
+  },
+  {
+    "scenario": "S1",
+    "run_id": "cold_r1_in16384",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "16384",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 4200
+  },
+  {
+    "scenario": "S1",
+    "run_id": "cold_r1_in65536",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "65536",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 4200
+  },
+  {
+    "scenario": "S1",
+    "run_id": "cold_r1_in131072",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "131072",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 4200
+  },
+  {
+    "scenario": "S1",
+    "run_id": "cold_r1_in204800",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "204800",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 4200
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r1_in512",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "512",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r1_in4096",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r1_in16384",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "16384",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r1_in65536",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "65536",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r1_in131072",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "131072",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r1_in204800",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "204800",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r2_in512",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "512",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r2_in4096",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r2_in16384",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "16384",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r2_in65536",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "65536",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r2_in131072",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "131072",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r2_in204800",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "204800",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r3_in512",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "512",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r3_in4096",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r3_in16384",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "16384",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r3_in65536",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "65536",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r3_in131072",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "131072",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S1",
+    "run_id": "warm_r3_in204800",
+    "args": [
+      "--request-count",
+      "5",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "204800",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c1_r1",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c2_r1",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "2",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c4_r1",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "4",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c8_r1",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "8",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c16_r1",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "16",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c1_r2",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c2_r2",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "2",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c4_r2",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "4",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c8_r2",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "8",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c16_r2",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "16",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c1_r3",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c2_r3",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "2",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c4_r3",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "4",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c8_r3",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "8",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S2",
+    "run_id": "c16_r3",
+    "args": [
+      "--request-count",
+      "24",
+      "--concurrency",
+      "16",
+      "--synthetic-input-tokens-mean",
+      "2048",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc2_r1",
+    "args": [
+      "--num-conversations",
+      "2",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc4_r1",
+    "args": [
+      "--num-conversations",
+      "4",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc8_r1",
+    "args": [
+      "--num-conversations",
+      "8",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc2_r2",
+    "args": [
+      "--num-conversations",
+      "2",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc4_r2",
+    "args": [
+      "--num-conversations",
+      "4",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc8_r2",
+    "args": [
+      "--num-conversations",
+      "8",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc2_r3",
+    "args": [
+      "--num-conversations",
+      "2",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc4_r3",
+    "args": [
+      "--num-conversations",
+      "4",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S3",
+    "run_id": "nc8_r3",
+    "args": [
+      "--num-conversations",
+      "8",
+      "--conversation-turn-mean",
+      "8",
+      "--conversation-turn-stddev",
+      "2",
+      "--conversation-turn-delay-mean",
+      "5000",
+      "--conversation-turn-delay-stddev",
+      "2000",
+      "--synthetic-input-tokens-mean",
+      "4096",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "256",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 3600
+  },
+  {
+    "scenario": "S5",
+    "run_id": "s5a_r1",
+    "args": [
+      "--request-count",
+      "1",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "249940",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S5",
+    "run_id": "s5b_r1",
+    "args": [
+      "--request-count",
+      "2",
+      "--concurrency",
+      "2",
+      "--synthetic-input-tokens-mean",
+      "149940",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S5",
+    "run_id": "s5a_r2",
+    "args": [
+      "--request-count",
+      "1",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "249940",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S5",
+    "run_id": "s5b_r2",
+    "args": [
+      "--request-count",
+      "2",
+      "--concurrency",
+      "2",
+      "--synthetic-input-tokens-mean",
+      "149940",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S5",
+    "run_id": "s5a_r3",
+    "args": [
+      "--request-count",
+      "1",
+      "--concurrency",
+      "1",
+      "--synthetic-input-tokens-mean",
+      "249940",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  },
+  {
+    "scenario": "S5",
+    "run_id": "s5b_r3",
+    "args": [
+      "--request-count",
+      "2",
+      "--concurrency",
+      "2",
+      "--synthetic-input-tokens-mean",
+      "149940",
+      "--synthetic-input-tokens-stddev",
+      "0",
+      "--output-tokens-mean",
+      "128",
+      "--output-tokens-stddev",
+      "0"
+    ],
+    "timeout": 2400
+  }
+]

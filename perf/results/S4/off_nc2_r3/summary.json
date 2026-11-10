@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 4071.2825478333334,
+    "p50": 3137.733091,
+    "p95": 6879.471435899999,
+    "p99": 6977.62128638,
+    "min": 2690.633457,
+    "max": 7002.158748999999
+  },
+  "inter_token_latency": {
+    "avg": 47.444363824183014,
+    "p50": 46.91966106666666,
+    "p95": 61.74866486960784,
+    "p99": 61.92870747745098,
+    "min": 36.77718765098039,
+    "max": 61.973718129411765
+  },
+  "request_latency": {
+    "avg": 16169.595323,
+    "p50": 18155.4971585,
+    "p95": 18906.3480639,
+    "p99": 18945.76928398,
+    "min": 12148.291906999999,
+    "max": 18955.624589
+  },
+  "output_token_throughput_per_user": {
+    "avg": 21.877146955696677,
+    "p50": 21.31304510493238,
+    "p95": 27.08118355123036,
+    "p99": 27.168851608157496,
+    "min": 16.13587227269192,
+    "max": 27.190768622389278
+  },
+  "output_token_throughput": {
+    "avg": 19.874556320800146,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 15768.166666666666,
+    "p50": 14401.0,
+    "p95": 30600.899999999998,
+    "p99": 32405.780000000002,
+    "min": 4148.0,
+    "max": 32857.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T23:13:40.229258",
+  "end_time": "2026-11-08T23:16:14.803562",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 53507.0,
+    "llamacpp:prompt_tokens_cached_total": 139859.0,
+    "llamacpp:prompt_seconds_total": 39.065061843999956,
+    "llamacpp:tokens_predicted_total": 3328.0,
+    "llamacpp:tokens_predicted_seconds_total": 141.0449425759998,
+    "llamacpp:spec_decode_num_drafts_total": 0.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 0.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 0.0
+  },
+  "cache_hit_ratio_metrics": 0.7232864102272375,
+  "aiperf_rc": 0,
+  "duration_s": 188.4
+}

@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 16895.43771217647,
+    "p50": 16419.301398,
+    "p95": 38371.78961049991,
+    "p99": 67756.03709467,
+    "min": 2835.007271,
+    "max": 68397.323884
+  },
+  "inter_token_latency": {
+    "avg": 47.60997341326412,
+    "p50": 50.825070198039214,
+    "p95": 59.42310731372548,
+    "p99": 60.45121537807843,
+    "min": 26.416164176470588,
+    "max": 60.578693113725485
+  },
+  "request_latency": {
+    "avg": 29035.98093255882,
+    "p50": 29822.6956625,
+    "p95": 52912.83322894991,
+    "p99": 80362.1764579,
+    "min": 9610.635688,
+    "max": 80879.658424
+  },
+  "output_token_throughput_per_user": {
+    "avg": 22.191615359975692,
+    "p50": 19.67533004310522,
+    "p95": 37.541205368493095,
+    "p99": 37.75210095418366,
+    "min": 16.50745416581836,
+    "max": 37.85560966836813
+  },
+  "output_token_throughput": {
+    "avg": 21.82061268065374,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 21518.70588235294,
+    "p50": 20552.0,
+    "p95": 46600.34999999999,
+    "p99": 52013.670000000006,
+    "min": 4148.0,
+    "max": 53367.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T18:12:18.027942",
+  "end_time": "2026-11-08T18:18:56.924774",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 143928.0,
+    "llamacpp:prompt_tokens_cached_total": 591856.0,
+    "llamacpp:prompt_seconds_total": 194.01046841699645,
+    "llamacpp:tokens_predicted_total": 8960.0,
+    "llamacpp:tokens_predicted_seconds_total": 313.8993302669951,
+    "llamacpp:spec_decode_num_drafts_total": 4208.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 6700.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 4167.0
+  },
+  "cache_hit_ratio_metrics": 0.8043882443760669,
+  "aiperf_rc": 0,
+  "duration_s": 434.4
+}

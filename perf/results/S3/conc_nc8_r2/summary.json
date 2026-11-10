@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 56152.503463359375,
+    "p50": 56047.615774,
+    "p95": 99677.26294799997,
+    "p99": 104580.46880806999,
+    "min": 2788.0194979999997,
+    "max": 107401.66469599999
+  },
+  "inter_token_latency": {
+    "avg": 58.57942778223039,
+    "p50": 54.48195935882353,
+    "p95": 79.54323654960776,
+    "p99": 171.45957829133306,
+    "min": 29.856542756862744,
+    "max": 232.59330561568626
+  },
+  "request_latency": {
+    "avg": 71090.25754782812,
+    "p50": 70334.226971,
+    "p95": 112271.7351864,
+    "p99": 117195.57749259999,
+    "min": 13991.713634,
+    "max": 117819.110152
+  },
+  "output_token_throughput_per_user": {
+    "avg": 18.821357755735736,
+    "p50": 18.35481469881393,
+    "p95": 27.589590075535398,
+    "p99": 31.882650756536187,
+    "min": 4.299349877473684,
+    "max": 33.49349615404291
+  },
+  "output_token_throughput": {
+    "avg": 24.050902023771265,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 19079.078125,
+    "p50": 18502.5,
+    "p95": 36957.7,
+    "p99": 41057.74,
+    "min": 4148.0,
+    "max": 41059.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T18:44:40.954992",
+  "end_time": "2026-11-08T18:56:02.181821",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 271426.0,
+    "llamacpp:prompt_tokens_cached_total": 953783.0,
+    "llamacpp:prompt_seconds_total": 326.23886508399664,
+    "llamacpp:tokens_predicted_total": 16640.0,
+    "llamacpp:tokens_predicted_seconds_total": 649.0542555069969,
+    "llamacpp:spec_decode_num_drafts_total": 7597.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 11979.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 7636.0
+  },
+  "cache_hit_ratio_metrics": 0.778465551591606,
+  "aiperf_rc": 0,
+  "duration_s": 715.4
+}

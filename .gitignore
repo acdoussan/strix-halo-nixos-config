@@ -1,0 +1,7 @@
+# raw run evidence stays out of git (lives on the test machine)
+perf/results/**/inputs.json
+perf/results/**/journal*
+perf/results/data/
+*.log.bak
+result
+.drv

@@ -1,0 +1,42 @@
+2026-11-08T22:41:15Z S4b (mtp-off) series start
+2026-11-08T22:41:16Z PRE  S4/off_c1_r1: snapshots
+2026-11-08T22:41:18Z RUN  S4/off_c1_r1: --request-count 12 --concurrency 1 --synthetic-input-tokens-mean 2048 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T22:44:24Z POST S4/off_c1_r1: snapshots (rc=0)
+2026-11-08T22:44:27Z STATUS S4/off_c1_r1: OK
+2026-11-08T22:45:33Z PRE  S4/off_c1_r2: snapshots
+2026-11-08T22:45:36Z RUN  S4/off_c1_r2: --request-count 12 --concurrency 1 --synthetic-input-tokens-mean 2048 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T22:48:56Z POST S4/off_c1_r2: snapshots (rc=0)
+2026-11-08T22:48:58Z STATUS S4/off_c1_r2: OK
+2026-11-08T22:50:04Z PRE  S4/off_c2_r1: snapshots
+2026-11-08T22:50:07Z RUN  S4/off_c2_r1: --request-count 24 --concurrency 2 --synthetic-input-tokens-mean 2048 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T22:54:27Z POST S4/off_c2_r1: snapshots (rc=0)
+2026-11-08T22:54:28Z STATUS S4/off_c2_r1: OK
+2026-11-08T22:55:34Z PRE  S4/off_c2_r2: snapshots
+2026-11-08T22:55:36Z RUN  S4/off_c2_r2: --request-count 24 --concurrency 2 --synthetic-input-tokens-mean 2048 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T22:59:17Z POST S4/off_c2_r2: snapshots (rc=0)
+2026-11-08T22:59:19Z STATUS S4/off_c2_r2: OK
+2026-11-08T23:00:24Z PRE  S4/off_c2_r3: snapshots
+2026-11-08T23:00:26Z RUN  S4/off_c2_r3: --request-count 24 --concurrency 2 --synthetic-input-tokens-mean 2048 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T23:04:16Z POST S4/off_c2_r3: snapshots (rc=0)
+2026-11-08T23:04:18Z STATUS S4/off_c2_r3: OK
+2026-11-08T23:05:23Z PRE  S4/off_nc2_r1: snapshots
+2026-11-08T23:05:25Z RUN  S4/off_nc2_r1: --num-conversations 2 --concurrency 2 --conversation-turn-mean 8 --conversation-turn-stddev 2 --conversation-turn-delay-mean 5000 --conversation-turn-delay-stddev 2000 --synthetic-input-tokens-mean 4096 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T23:07:55Z POST S4/off_nc2_r1: snapshots (rc=0)
+2026-11-08T23:07:57Z STATUS S4/off_nc2_r1: OK
+2026-11-08T23:09:03Z PRE  S4/off_nc2_r2: snapshots
+2026-11-08T23:09:04Z RUN  S4/off_nc2_r2: --num-conversations 2 --concurrency 2 --conversation-turn-mean 8 --conversation-turn-stddev 2 --conversation-turn-delay-mean 5000 --conversation-turn-delay-stddev 2000 --synthetic-input-tokens-mean 4096 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T23:12:10Z POST S4/off_nc2_r2: snapshots (rc=0)
+2026-11-08T23:12:12Z STATUS S4/off_nc2_r2: OK
+2026-11-08T23:13:17Z PRE  S4/off_nc2_r3: snapshots
+2026-11-08T23:13:19Z RUN  S4/off_nc2_r3: --num-conversations 2 --concurrency 2 --conversation-turn-mean 8 --conversation-turn-stddev 2 --conversation-turn-delay-mean 5000 --conversation-turn-delay-stddev 2000 --synthetic-input-tokens-mean 4096 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T23:16:25Z POST S4/off_nc2_r3: snapshots (rc=0)
+2026-11-08T23:16:27Z STATUS S4/off_nc2_r3: OK
+2026-11-08T23:17:32Z PRE  S4/off_nc4_r1: snapshots
+2026-11-08T23:17:34Z RUN  S4/off_nc4_r1: --num-conversations 4 --concurrency 4 --conversation-turn-mean 8 --conversation-turn-stddev 2 --conversation-turn-delay-mean 5000 --conversation-turn-delay-stddev 2000 --synthetic-input-tokens-mean 4096 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T23:23:09Z POST S4/off_nc4_r1: snapshots (rc=0)
+2026-11-08T23:23:11Z STATUS S4/off_nc4_r1: OK
+2026-11-08T23:24:16Z PRE  S4/off_nc4_r2: snapshots
+2026-11-08T23:24:18Z RUN  S4/off_nc4_r2: --num-conversations 4 --concurrency 4 --conversation-turn-mean 8 --conversation-turn-stddev 2 --conversation-turn-delay-mean 5000 --conversation-turn-delay-stddev 2000 --synthetic-input-tokens-mean 4096 --synthetic-input-tokens-stddev 0 --output-tokens-mean 256 --output-tokens-stddev 0
+2026-11-08T23:30:20Z POST S4/off_nc4_r2: snapshots (rc=0)
+2026-11-08T23:30:21Z STATUS S4/off_nc4_r2: OK
+2026-11-08T23:30:21Z S4b (mtp-off) series COMPLETE
