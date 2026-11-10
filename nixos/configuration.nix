@@ -10,9 +10,19 @@
       ./hardware-configuration.nix
       ./amd-uma-tuning.nix
       ./vm-tuning.nix
-      ./odysseus.nix
       ./gufo.nix
     ];
+
+  # Tools inherited from the retired odysseus.nix module
+  environment.systemPackages = with pkgs; [
+    git
+    tmux
+    wget
+    llama-cpp-vulkan
+    openssl
+    xxd
+  ];
+
 
   hardware.graphics.enable = true;
 

@@ -6,6 +6,10 @@ let
 in {
   users.users.example-user.extraGroups = [ "render" "video" ];
 
+  # Ports: 8081 = gufo API; 7000 = llama-server fallback stack
+  # (inherited from the retired odysseus.nix module)
+  networking.firewall.allowedTCPPorts = [ 7000 8081 ];
+
   systemd.services.gufo = {
     enable = true;
     description = "Gufo - Qwen3.8-Flash-Next (2 x 256k sessions, multi-agent cache)";

@@ -19,7 +19,7 @@ These files live in `/etc/nixos/` on the machine:
 sudo nixos-rebuild switch
 ```
 `hardware-configuration.nix` is machine-generated (`nixos-generate-config`) and
-device-specific. `gufo.nix` pins the model path, session/context sizing,
+device-specific. `gufo.nix` pins the model path, firewall ports, session/context sizing,
 `--speculative mtp`, and the 256 GiB disk cache budgets.
 
 ## Sanitization notes
@@ -35,8 +35,8 @@ device-specific. `gufo.nix` pins the model path, session/context sizing,
   back (user, home paths, service `User=`) before deploying.
 
 ## Before deploying
-- `gufo.nix` binds the inference API to `0.0.0.0:8081` **unauthenticated** (with
-  `odysseus.nix` opening 7000/8081 in the firewall) — intentional LAN-only design;
+- `gufo.nix` binds the inference API to `0.0.0.0:8081` **unauthenticated** and
+  opens 7000/8081 in the firewall — intentional LAN-only design;
   don't expose this box.
 - `configuration.nix` seeds `initialPassword` for `example-user`; set a real
   password/hash immediately on any non-LAN deployment.
