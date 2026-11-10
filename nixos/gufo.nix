@@ -6,8 +6,7 @@ let
 in {
   users.users.example-user.extraGroups = [ "render" "video" ];
 
-  # Port 8081 = gufo API (inherited from the retired odysseus.nix module;
-  # its unused 7000 Odysseus-UI opening was dropped)
+  # API port
   networking.firewall.allowedTCPPorts = [ 8081 ];
 
   systemd.services.gufo = {
