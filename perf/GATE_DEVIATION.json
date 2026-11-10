@@ -1,0 +1,8 @@
+{
+  "deviation": "plan §3 pre-run gate lowered from >= 6144 MiB (6 GiB) to >= 4608 MiB (kill line 4096 + 512 margin)",
+  "approved_by": "user via clarify",
+  "approved_at": "2026-11-08T04:35Z approx",
+  "reason": "gufo 10 GiB RAM checkpoint cache filled and pinned at budget during S1 (cache_global_ledger_bytes 10.14e9 of 10.74e9; RSS 10020->11314 MiB). Plan §3: cache is meant to fill and stays pinned; flushing forbidden ('measures a state production never sees'). Available leveled at ~6.0 GiB (6042-6102 MiB), below the literal 6 GiB gate but 2 GiB above the §3 kill line (host_available_mib < 4096), with zero swap-in and zero errors across 25 completed runs.",
+  "scope": "remaining runs from S2/c2_r1 onward; in-run kill-criteria monitor unchanged (4 GiB kill line enforced continuously per run)",
+  "s5_policy": "user decision: let kill criteria play out as written during S5; if a dip hits, stop and discuss re-lowering"
+}

@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 234495.80210099998,
+    "p50": 234495.80210099998,
+    "p95": 234495.80210099998,
+    "p99": 234495.80210099998,
+    "min": 234495.80210099998,
+    "max": 234495.80210099998
+  },
+  "inter_token_latency": {
+    "avg": 28.543243858267715,
+    "p50": 28.543243858267715,
+    "p95": 28.543243858267715,
+    "p99": 28.543243858267715,
+    "min": 28.543243858267715,
+    "max": 28.543243858267715
+  },
+  "request_latency": {
+    "avg": 238120.79407099998,
+    "p50": 238120.79407099998,
+    "p95": 238120.79407099998,
+    "p99": 238120.79407099998,
+    "min": 238120.79407099998,
+    "max": 238120.79407099998
+  },
+  "output_token_throughput_per_user": {
+    "avg": 35.03456036621234,
+    "p50": 35.03456036621234,
+    "p95": 35.03456036621234,
+    "p99": 35.03456036621234,
+    "min": 35.03456036621234,
+    "max": 35.03456036621234
+  },
+  "output_token_throughput": {
+    "avg": 0.5375423028441375,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 249993.0,
+    "p50": 249993.0,
+    "p95": 249993.0,
+    "p99": 249993.0,
+    "min": 249993.0,
+    "max": 249993.0
+  },
+  "output_sequence_length": {
+    "avg": 128.0,
+    "p50": 128.0,
+    "p95": 128.0,
+    "p99": 128.0,
+    "min": 128.0,
+    "max": 128.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T07:25:19.487694",
+  "end_time": "2026-11-08T07:29:17.614877",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 499986.0,
+    "llamacpp:prompt_tokens_cached_total": 0.0,
+    "llamacpp:prompt_seconds_total": 370.65312095099944,
+    "llamacpp:tokens_predicted_total": 256.0,
+    "llamacpp:tokens_predicted_seconds_total": 6.38622013800159,
+    "llamacpp:spec_decode_num_drafts_total": 91.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 285.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 148.0
+  },
+  "cache_hit_ratio_metrics": 0.0,
+  "aiperf_rc": 0,
+  "duration_s": 447.7
+}

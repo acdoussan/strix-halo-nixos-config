@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 198621.33586720002,
+    "p50": 197427.24623,
+    "p95": 277657.35641919996,
+    "p99": 293523.31788144,
+    "min": 149806.196735,
+    "max": 297489.808247
+  },
+  "inter_token_latency": {
+    "avg": 27.919525193700782,
+    "p50": 26.623468362204722,
+    "p95": 33.185520692913386,
+    "p99": 34.42947392125984,
+    "min": 25.08830625984252,
+    "max": 34.74046222834646
+  },
+  "request_latency": {
+    "avg": 202167.11556679997,
+    "p50": 200851.897058,
+    "p95": 281851.95009959996,
+    "p99": 297891.86757992,
+    "min": 152992.41163,
+    "max": 301901.84695
+  },
+  "output_token_throughput_per_user": {
+    "avg": 36.29732705100207,
+    "p50": 37.56084618259665,
+    "p95": 39.52689187977503,
+    "p99": 39.792744215414494,
+    "min": 28.784878952590635,
+    "max": 39.85920729932436
+  },
+  "output_token_throughput": {
+    "avg": 0.6331272904239695,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 204852.4,
+    "p50": 204852.0,
+    "p95": 204853.6,
+    "p99": 204853.92,
+    "min": 204852.0,
+    "max": 204854.0
+  },
+  "output_sequence_length": {
+    "avg": 128.0,
+    "p50": 128.0,
+    "p95": 128.0,
+    "p99": 128.0,
+    "min": 128.0,
+    "max": 128.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T17:32:54.903832",
+  "end_time": "2026-11-08T17:49:45.764965",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 1355026.0,
+    "llamacpp:prompt_tokens_cached_total": 154663.0,
+    "llamacpp:prompt_seconds_total": 1092.1123142310025,
+    "llamacpp:tokens_predicted_total": 5108.0,
+    "llamacpp:tokens_predicted_seconds_total": 133.4495534639991,
+    "llamacpp:spec_decode_num_drafts_total": 2058.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 5665.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 3592.0
+  },
+  "cache_hit_ratio_metrics": 0.10244692781095974,
+  "aiperf_rc": 0,
+  "duration_s": 1317.4
+}

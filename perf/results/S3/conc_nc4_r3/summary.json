@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 18365.616275261906,
+    "p50": 17267.115417,
+    "p95": 47871.169590049896,
+    "p99": 60075.313391059986,
+    "min": 2874.1123049999997,
+    "max": 61122.317285
+  },
+  "inter_token_latency": {
+    "avg": 51.71921918860877,
+    "p50": 50.2864679627451,
+    "p95": 71.21641121588233,
+    "p99": 175.4989881553719,
+    "min": 16.40045859607843,
+    "max": 244.98808707843136
+  },
+  "request_latency": {
+    "avg": 31554.017168357143,
+    "p50": 30126.3802445,
+    "p95": 70579.16972714993,
+    "p99": 78353.10544705996,
+    "min": 8850.118864,
+    "max": 81417.043825
+  },
+  "output_token_throughput_per_user": {
+    "avg": 23.898545425989195,
+    "p50": 19.88606580429512,
+    "p95": 52.292343418593674,
+    "p99": 60.12308839317938,
+    "min": 4.081831128710582,
+    "max": 60.97390473209775
+  },
+  "output_token_throughput": {
+    "avg": 22.79864744362502,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 24165.404761904763,
+    "p50": 24653.0,
+    "p95": 45159.0,
+    "p99": 51680.58999999998,
+    "min": 4148.0,
+    "max": 53362.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T19:01:51.555807",
+  "end_time": "2026-11-08T19:09:43.170914",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 176774.0,
+    "llamacpp:prompt_tokens_cached_total": 842322.0,
+    "llamacpp:prompt_seconds_total": 214.4595125320011,
+    "llamacpp:tokens_predicted_total": 11008.0,
+    "llamacpp:tokens_predicted_seconds_total": 360.6592899410043,
+    "llamacpp:spec_decode_num_drafts_total": 4864.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 8573.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 5747.0
+  },
+  "cache_hit_ratio_metrics": 0.8265384222879886,
+  "aiperf_rc": 0,
+  "duration_s": 504.3
+}

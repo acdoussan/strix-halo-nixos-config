@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 4517.844252428571,
+    "p50": 2793.4236255,
+    "p95": 3727.9525038499996,
+    "p99": 36508.318747400015,
+    "min": 2621.630672,
+    "max": 48614.771197999995
+  },
+  "inter_token_latency": {
+    "avg": 26.340535479411756,
+    "p50": 26.717188484313724,
+    "p95": 29.760622570392158,
+    "p99": 30.05260425023529,
+    "min": 21.84700165098039,
+    "max": 30.09839762352941
+  },
+  "request_latency": {
+    "avg": 11234.680799678572,
+    "p50": 9663.114131,
+    "p95": 10980.332242299999,
+    "p99": 43536.730875230016,
+    "min": 8319.881296,
+    "max": 55465.313933
+  },
+  "output_token_throughput_per_user": {
+    "avg": 38.24529926620644,
+    "p50": 37.430231745634146,
+    "p95": 44.25571354675275,
+    "p99": 45.44710160405601,
+    "min": 33.224360064213194,
+    "max": 45.772871535217035
+  },
+  "output_token_throughput": {
+    "avg": 16.611438231121014,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 17183.964285714286,
+    "p50": 16451.5,
+    "p95": 32856.65,
+    "p99": 35850.0,
+    "min": 4148.0,
+    "max": 36957.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T06:54:36.511340",
+  "end_time": "2026-11-08T07:01:48.028007",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 119289.0,
+    "llamacpp:prompt_tokens_cached_total": 366010.0,
+    "llamacpp:prompt_seconds_total": 81.61951790099738,
+    "llamacpp:tokens_predicted_total": 7424.0,
+    "llamacpp:tokens_predicted_seconds_total": 194.55891935099953,
+    "llamacpp:spec_decode_num_drafts_total": 3330.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 6804.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 3840.0
+  },
+  "cache_hit_ratio_metrics": 0.7541948365852804,
+  "aiperf_rc": 0,
+  "duration_s": 457.1
+}

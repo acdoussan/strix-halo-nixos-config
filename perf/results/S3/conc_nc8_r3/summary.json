@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 53498.53065659155,
+    "p50": 53049.127595,
+    "p95": 102152.87192549999,
+    "p99": 103797.570043,
+    "min": 2972.458482,
+    "max": 104421.303342
+  },
+  "inter_token_latency": {
+    "avg": 57.292081030488816,
+    "p50": 53.958465270588235,
+    "p95": 73.62001266862744,
+    "p99": 240.65588410745096,
+    "min": 20.999859470588238,
+    "max": 240.85207535294117
+  },
+  "request_latency": {
+    "avg": 68108.0113193662,
+    "p50": 67495.149296,
+    "p95": 115439.837781,
+    "p99": 119441.18278389997,
+    "min": 10837.488872,
+    "max": 123283.556132
+  },
+  "output_token_throughput_per_user": {
+    "avg": 20.04360678354549,
+    "p50": 18.53277321705222,
+    "p95": 32.46603604676487,
+    "p99": 39.04810935484317,
+    "min": 4.1519260256928,
+    "max": 47.61936628197772
+  },
+  "output_token_throughput": {
+    "avg": 24.474742609803247,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 20610.788732394365,
+    "p50": 20553.0,
+    "p95": 36959.0,
+    "p99": 42290.69999999999,
+    "min": 4148.0,
+    "max": 45160.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T19:10:18.524133",
+  "end_time": "2026-11-08T19:22:41.173542",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 304311.0,
+    "llamacpp:prompt_tokens_cached_total": 1163204.0,
+    "llamacpp:prompt_seconds_total": 339.90189667799496,
+    "llamacpp:tokens_predicted_total": 18432.0,
+    "llamacpp:tokens_predicted_seconds_total": 714.1899292800026,
+    "llamacpp:spec_decode_num_drafts_total": 8316.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 13871.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 8751.0
+  },
+  "cache_hit_ratio_metrics": 0.7926351689761263,
+  "aiperf_rc": 0,
+  "duration_s": 767.4
+}

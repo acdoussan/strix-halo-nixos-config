@@ -1,0 +1,5 @@
+{
+  "identical": true,
+  "n_entries": 100,
+  "note": "if identical=True, seed-pinned payloads replay byte-identical content across runs"
+}

@@ -1,0 +1,74 @@
+{
+  "time_to_first_token": {
+    "avg": 80119.89111175,
+    "p50": 93878.573536,
+    "p95": 116910.4342605,
+    "p99": 117903.67941589,
+    "min": 1344.014888,
+    "max": 118180.280672
+  },
+  "inter_token_latency": {
+    "avg": 50.78719984869281,
+    "p50": 44.712353629411766,
+    "p95": 102.51913369372538,
+    "p99": 127.98485934482352,
+    "min": 34.8666911490196,
+    "max": 133.1230676509804
+  },
+  "request_latency": {
+    "avg": 93070.62707316667,
+    "p50": 105751.81633,
+    "p95": 128683.99430754999,
+    "p99": 130629.95902027999,
+    "min": 29593.68793,
+    "max": 131126.946255
+  },
+  "output_token_throughput_per_user": {
+    "avg": 21.659400789632524,
+    "p50": 22.366338988869387,
+    "p95": 27.765994719488706,
+    "p99": 28.51931503466893,
+    "min": 7.5118461258854206,
+    "max": 28.680668197794223
+  },
+  "output_token_throughput": {
+    "avg": 30.449711960986875,
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "min": null,
+    "max": null
+  },
+  "input_sequence_length": {
+    "avg": 2100.125,
+    "p50": 2100.0,
+    "p95": 2101.0,
+    "p99": 2101.0,
+    "min": 2100.0,
+    "max": 2101.0
+  },
+  "output_sequence_length": {
+    "avg": 256.0,
+    "p50": 256.0,
+    "p95": 256.0,
+    "p99": 256.0,
+    "min": 256.0,
+    "max": 256.0
+  },
+  "error_summary": [],
+  "start_time": "2026-11-08T05:10:55.060829",
+  "end_time": "2026-11-08T05:14:16.840947",
+  "metrics_deltas": {
+    "llamacpp:prompt_tokens_total": 52503.0,
+    "llamacpp:prompt_tokens_cached_total": 0.0,
+    "llamacpp:prompt_seconds_total": 66.93180658700112,
+    "llamacpp:tokens_predicted_total": 6400.0,
+    "llamacpp:tokens_predicted_seconds_total": 253.12710260900258,
+    "llamacpp:spec_decode_num_drafts_total": 2937.0,
+    "llamacpp:spec_decode_num_draft_tokens_total": 4159.0,
+    "llamacpp:spec_decode_num_accepted_tokens_total": 2705.0
+  },
+  "cache_hit_ratio_metrics": 0.0,
+  "aiperf_rc": 0,
+  "duration_s": 223.5
+}
