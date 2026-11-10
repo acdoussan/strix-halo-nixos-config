@@ -1,5 +1,8 @@
 # strix-halo-nixos-config
 
+> Live report: https://acdoussan.github.io/strix-halo-nixos-config/ (deploys from `main` via
+> `.github/workflows/pages.yml`)
+
 NixOS configuration + inference performance-test evidence for the Strix Halo
 machine serving **Qwen3.8 Flash Next** via [gufo](https://github.com) (`gufo serve llm`,
 2 × 256k sessions, RAM+disk prefix cache, MTP speculative decode).
