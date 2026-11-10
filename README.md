@@ -36,7 +36,7 @@ device-specific. `gufo.nix` pins the model path, firewall ports, session/context
 
 ## Before deploying
 - `gufo.nix` binds the inference API to `0.0.0.0:8081` **unauthenticated** and
-  opens 7000/8081 in the firewall — intentional LAN-only design;
+  opens 8081 in the firewall — intentional LAN-only design;
   don't expose this box.
 - `configuration.nix` seeds `initialPassword` for `example-user`; set a real
   password/hash immediately on any non-LAN deployment.

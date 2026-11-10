@@ -6,9 +6,9 @@ let
 in {
   users.users.example-user.extraGroups = [ "render" "video" ];
 
-  # Ports: 8081 = gufo API; 7000 = llama-server fallback stack
-  # (inherited from the retired odysseus.nix module)
-  networking.firewall.allowedTCPPorts = [ 7000 8081 ];
+  # Port 8081 = gufo API (inherited from the retired odysseus.nix module;
+  # its unused 7000 Odysseus-UI opening was dropped)
+  networking.firewall.allowedTCPPorts = [ 8081 ];
 
   systemd.services.gufo = {
     enable = true;
