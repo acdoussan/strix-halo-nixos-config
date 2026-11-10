@@ -14,11 +14,12 @@
     ];
 
   # Tools inherited from the retired odysseus.nix module
+  # (llama-cpp-vulkan dropped: it was the llama-server engine itself,
+  #  not a tool; that fallback path was retired with the module)
   environment.systemPackages = with pkgs; [
     git
     tmux
     wget
-    llama-cpp-vulkan
     openssl
     xxd
   ];
